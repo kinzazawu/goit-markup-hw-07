@@ -1,0 +1,37 @@
+.footer-page {
+  background-color: var(--secondary-black-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-address {
+  flex-grow: 1;
+}
+
+.adress-info {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-page {
+  margin-top: 20px;
+}
+
+.address-info {
+  font-style: normal;
+  list-style: none;
+}
+
+.location {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.address-info-item:not(:last-child) {
+  margin-bottom: 9px;
+}
