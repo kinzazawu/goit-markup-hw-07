@@ -2,7 +2,7 @@
   margin-left: 70px;
 }
 
-.join-title {
+.join__title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -11,10 +11,6 @@
   color: var(--primary-white-color);
   text-transform: uppercase;
 }
-.join-socials-list {
+.socials__list--margin {
   margin-top: 20px;
-}
-
-.page-socials-link {
-  background-color: var(--socials-bg-color);
 }

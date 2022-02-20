@@ -1,14 +1,14 @@
-.features-list {
+.features__list {
   display: flex;
   margin-left: -30px;
 }
 
-.features-item {
+.features__item {
   margin-left: 30px;
   width: 270px;
 }
 
-.features-thumb {
+.features__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   border-radius: 4px;
 }
 
-.features-title {
+.features__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -27,7 +27,7 @@
   color: var(--title-text-color);
 }
 
-.features-text {
+.features__text {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.71;

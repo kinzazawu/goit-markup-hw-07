@@ -1,4 +1,4 @@
-.filter-button {
+.filter__button {
   font-family: inherit;
   color: var(--title-text-color);
   font-weight: 500;
@@ -14,8 +14,8 @@
   border: none;
 }
 
-.filter-button:focus,
-.filter-button:hover {
+.filter__button:focus,
+.filter__button:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -24,12 +24,12 @@
   border: none;
 }
 
-.filter-list {
+.filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-item + .filter-item {
+.filter__item + .filter__item {
   margin-left: 8px;
 }
