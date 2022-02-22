@@ -4,16 +4,16 @@
   line-height: 1.2;
   font-weight: 700;
   text-decoration: none;
-}
 
-.logo--black {
-  color: var(--primary-black-color);
-}
+  &--black {
+    color: var(--primary-black-color);
+  }
 
-.logo--white {
-  color: var(--primary-white-color);
-}
+  &--white {
+    color: var(--primary-white-color);
+  }
 
-.logo--colorful {
-  color: var(--accent-color);
+  &--colorful {
+    color: var(--accent-color);
+  }
 }

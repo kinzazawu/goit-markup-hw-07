@@ -1,16 +1,13 @@
 .join {
   margin-left: 70px;
-}
 
-.join__title {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-  text-transform: uppercase;
-}
-.socials__list--margin {
-  margin-top: 20px;
+  &__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+  }
 }
